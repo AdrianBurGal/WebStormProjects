@@ -1,0 +1,3 @@
+//Ejercicio5
+
+frutas:
