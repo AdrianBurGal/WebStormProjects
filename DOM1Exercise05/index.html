@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+
+<script>
+
+    /*5. Make a function that requests the number of columns and rows of a table and the height and width (in pixels)
+    of its cells. A table with these properties should be created.*/
+
+    function requestsProperties() {
+
+        let numColumns = prompt("Tell me the numbers of columns:");
+        let numRows = prompt("Tell me the numbers of rows:")
+        let height = prompt("Tell me the height:")
+        let width = prompt("Tell me the width:")
+
+        return [numColumns, numRows, height, width];
+    }
+
+    function createTable([numColumns, numRows, height, width]) {
+
+        let table = document.createElement("table");
+        let row, column;
+
+        for (let i = 0; i < numRows; i++) {
+            row = document.createElement("tr");
+            for (let j = 0; j < numColumns; j++) {
+                column = document.createElement("td");
+                column.style.height = height + "px";
+                column.style.width = width + "px";
+                row.appendChild(column);
+            }
+            table.append(row);
+        }
+        return table;
+    }
+    document.body.append(createTable(requestsProperties()));
+
+
+</script>
+
+<style>
+
+    table {
+        border: solid 1px black;
+    }
+
+    tr {
+        border: solid 1px black;
+    }
+
+    td {
+        border: solid 1px black;
+    }
+
+</style>
+
+</body>
+</html>

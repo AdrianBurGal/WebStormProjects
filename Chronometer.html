@@ -1,0 +1,44 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+</head>
+<body>
+
+<div id="chronometer">0:00</div>
+<button id="startButton" onclick="startChronometer()"> Start</button>
+<button id="stopButton" onclick="stopChronometer()" disabled> Stop</button>
+
+<script>
+
+    let chronometerInterval;
+
+    function startChronometer() {
+        document.getElementById("startButton").disabled = true;
+        document.getElementById("stopButton").disabled = false;
+        chronometerInterval = setInterval(updateChronometer, 1);
+    }
+
+    function stopChronometer() {
+        document.getElementById("startButton").disabled = false;
+        document.getElementById("stopButton").disabled = true;
+        clearInterval(chronometerInterval);
+    }
+
+    function updateChronometer() {
+
+        const time = Date.now(); // Calculate the elapsed time in milliseconds
+        const minutes = Math.floor(time / 60000); // Convert milliseconds to minutes
+        const seconds = Math.floor((time % 60000) / 1000); // Convert remaining milliseconds to seconds
+
+        const chronometerElement = document.getElementById("chronometer");
+        chronometerElement.textContent = minutes + ":" + (seconds < 10 ? "0" : "") + seconds; // Display the time
+    }
+
+</script>
+</body>
+</html>

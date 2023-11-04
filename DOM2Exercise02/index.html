@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+
+<button onclick="show()">SHOW</button>
+
+<script>
+
+    function show() {
+
+        let linksList = ["file.css", "file.gif", "file.jpg",
+            "file.png", "file.pdf", "file.html", "file.rar", "file.txt", "file.zip"];
+
+        for (let i = 0; i < linksList.length; i++) {
+            let extension = linksList[i].split(".");
+            let element = document.createElement("img");
+
+            element.src = `img/${extension[1]}.png`;
+            document.body.append(element);
+            document.body.append(linksList[i]);
+        }
+
+    }
+
+</script>
+
+<style>
+    img {
+        width: 100px;
+        height: 100px;
+        margin-top: 10px;
+        display: inline;
+        margin-right: 20px;
+    }
+</style>
+
+</body>
+</html>

@@ -1,7 +1,6 @@
-
 // Ejercicio1
 
-function numParImpar(num){
+function numParImpar(num) {
     let resultado = "par";
 
     if (num % 2 != 0) {
@@ -11,3 +10,4 @@ function numParImpar(num){
 }
 
 console.log("El número es " + numParImpar(5));
+
