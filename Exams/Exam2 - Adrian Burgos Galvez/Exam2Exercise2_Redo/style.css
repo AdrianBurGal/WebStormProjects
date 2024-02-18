@@ -1,0 +1,33 @@
+
+* {
+    border: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    display: flex;
+}
+
+div {
+    padding: 0 5px 5px 5px;
+    font-size: 14px;
+}
+
+#container1, #container2, #container3 {
+    border: 1px solid black;
+    width: 220px;
+    margin: 5px;
+}
+
+img {
+    width: 200px;
+    height: 200px;
+}
+
+button {
+    margin-top: 10px;
+    padding: 5px;
+    border-radius: 3px;
+    cursor: pointer;
+}

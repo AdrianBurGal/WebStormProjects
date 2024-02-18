@@ -1,0 +1,59 @@
+
+{
+  "tasks": [
+    {
+      "id": 0,
+      "title": "task1",
+      "description": "This is one task",
+      "members": [],
+      "dateCreation": "31/01/2024",
+      "dueDate": "01/02/2025",
+      "state": "toDo"
+    },
+    {
+      "id": 1,
+      "title": "task2",
+      "description": "This is one task",
+      "members": [],
+      "dateCreation": "01/02/2024",
+      "dueDate": "01/02/2025",
+      "state": "toDo"
+    },
+    {
+      "id": 2,
+      "title": "task3",
+      "description": "This is one task",
+      "members": [],
+      "dateCreation": "01/01/2023",
+      "dueDate": "01/02/2025",
+      "state": "inProgress"
+    },
+    {
+      "id": 3,
+      "title": "task4",
+      "description": "This is one task",
+      "members": [],
+      "dateCreation": "01/01/2023",
+      "dueDate": "01/02/2024",
+      "state": "inProgress"
+    },
+    {
+      "id": 4,
+      "title": "task5",
+      "description": "This is one task",
+      "members": [],
+      "dateCreation": "01/01/2023",
+      "dueDate": "01/02/2024",
+      "state": "done"
+    },
+    {
+      "id": 5,
+      "title": "task6",
+      "description": "This is one task",
+      "members": [],
+      "dateCreation": "01/01/2023",
+      "dueDate": "01/02/2025",
+      "state": "done"
+    }
+  ]
+}

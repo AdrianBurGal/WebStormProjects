@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+   <link href="style.css" rel="stylesheet">
+</head>
+<body>
+
+<div class="communities"></div>
+
+<script type="module">
+
+    async function getData (url) {
+        return fetch(url).then(res => res.json());
+    }
+    const data = await getData("arbol.json");
+    console.log(data);
+
+    let showData = "";
+
+    data.forEach(community => {
+        showData += `<details><summary class="community"> ${community.label} <br> ${community.provinces.length} provinces</summary>`;
+
+        community.provinces.forEach(province => {
+            showData += `<details><summary class="province"> ${province.label} <span>${province.towns.length} </span></summary>`;
+
+            province.towns.forEach(town => {
+                showData += `<summary class="town">${town.label}</summary>`;
+            });
+            showData += `</details>`;
+        });
+        showData += `</details>`;
+    });
+
+    let communitiesDiv = document.querySelector(".communities");
+    communitiesDiv.innerHTML = showData;
+
+</script>
+
+</body>
+</html>

@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <link href="style.css" rel="stylesheet">
+</head>
+<body>
+
+<div id="main">
+
+    <div id="newTask">
+        <label><input type="text" placeholder="New Task" id="title"></label>
+        <label><input type="text" placeholder="Description..." id="description"></label>
+        <button type="button" id="addTask">Add Task</button>
+    </div>
+
+    <div id="containerMembers">
+        <h1>Team members</h1>
+    </div>
+
+    <div id="tasks">
+        <div id="toDo"></div>
+        <div id="inProgress"></div>
+        <div id="done"></div>
+    </div>
+
+    <div id="buttons">
+        <button type="submit" id="toDoButton">Show To Do</button>
+        <button type="submit" id="inProgressButton">In Progress</button>
+        <button type="submit" id="toDoneButton">Done</button>
+    </div>
+
+    <div id="showJSON"></div>
+
+    <script type="module" src="script.js"></script>
+</div>
+
+</body>
+</html>

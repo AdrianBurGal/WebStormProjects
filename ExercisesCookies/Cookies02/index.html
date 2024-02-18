@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <link href="style.css" rel="stylesheet">
+</head>
+<body>
+
+<div id="main">
+
+    <form id="container1">
+        <span>First name</span><label><input type="text"></label>
+        <span>Last name</span><label><input type="text"></label>
+        <span>Birthday</span><label><input type="date"></label>
+        <span>Gender</span><label><input type="text"></label>
+        <span>Email</span><label><input type="text" value="hola@gmail.com"></label>
+        <span>Phone number</span><label><input type="text"></label>
+        <button type="submit" id="button">Insert</button>
+    </form>
+
+    <table id="container2">
+        <thead>
+        <th>First name</th>
+        <th>Last name</th>
+        <th>Birthday</th>
+        <th>Gender</th>
+        <th>Email</th>
+        <th>Phone number</th>
+        </thead>
+
+        <tbody id="bodyTable"></tbody>
+    </table>
+
+    <div id="container3">
+        <label><input id="photo" type="file"></label>
+        <div id="photoPreview"></div>
+    </div>
+
+</div>
+
+<script src="script.js"></script>
+<script src="lib/cookies.js"></script>
+<script src="https://unpkg.com/validator@latest/validator.min.js"></script>
+
+</body>
+</html>

@@ -1,0 +1,35 @@
+* {
+    margin: 0;
+    padding: 10px;
+    box-sizing: border-box;
+    font-weight: bold;
+}
+
+.community {
+    background-color: #7F8C8D;
+    color: white;
+}
+
+.province {
+    background-color: #52D2EE;
+    color: black;
+}
+
+details {
+    padding: 0;
+    border: 1px solid grey;
+}
+summary {
+    border: 1px solid white;
+}
+
+span {
+    border: 1px solid black;
+    border-radius: 20px;
+    font-weight: normal;
+    padding: 5px 10px;
+    margin-left: 5%;
+    color: white;
+    background-color: #3877CD;
+    font-size: 12px;
+}

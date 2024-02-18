@@ -1,0 +1,29 @@
+* {
+    padding: 0;
+    margin: 0;
+    border-collapse: collapse;
+}
+
+#container1 {
+    display: flex;
+    gap: 15px;
+    margin: 20px;
+}
+
+p {
+    font-weight: bolder;
+}
+
+#table {
+    margin: 0 100px 0 20px;
+    width: 1200px;
+    border: 1px solid black;
+}
+
+td {
+    border: 1px solid black;
+    padding: 10px;
+}
+
+
+

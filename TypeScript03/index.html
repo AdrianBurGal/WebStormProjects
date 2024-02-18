@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Proyecto TypeScript con Webpack</title>
+    <link href="style.css" rel="stylesheet">
+</head>
+<body>
+
+<div id="main">
+
+    <form id="container1">
+        <span>First name</span><label><input type="text"></label>
+        <span>Last name</span><label><input type="text"></label>
+        <span>Birthday</span><label><input type="date"></label>
+        <span>Gender</span><label><input type="text"></label>
+        <span>Email</span><label><input type="text" value="hola@gmail.com"></label>
+        <span>Phone number</span><label><input type="text"></label>
+        <button type="submit" id="button">Insert</button>
+    </form>
+
+    <table id="container2">
+
+        <thead>
+        <th>First name</th>
+        <th>Last name</th>
+        <th>Birthday</th>
+        <th>Gender</th>
+        <th>Email</th>
+        <th>Phone number</th>
+        </thead>
+
+        <tbody id="bodyTable"></tbody>
+    </table>
+
+</div>
+
+<script src="dist/index.js" type="module"></script>
+
+
+</body>
+</html>

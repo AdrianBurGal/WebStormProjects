@@ -1,0 +1,49 @@
+{
+  "providers": [
+    {
+      "name": "Samsung",
+      "country": "South Korea",
+      "products": [
+        {"model": "Galaxy S21", "sizes": ["XL", "Standard", "Mini"]},
+        {"model": "Galaxy Note 20", "sizes": ["XL", "Standard"]},
+        {"model": "Galaxy A52", "sizes": ["Standard", "Mini"]}
+      ]
+    },
+    {
+      "name": "Apple",
+      "country": "United States",
+      "products": [
+        {"model": "iPhone 13", "sizes": ["XL", "Standard"]},
+        {"model": "iPhone 12", "sizes": ["XL", "Standard"]},
+        {"model": "iPhone SE", "sizes": ["Standard", "Mini"]}
+      ]
+    },
+    {
+      "name": "Huawei",
+      "country": "China",
+      "products": [
+        {"model": "Huawei P40", "sizes": ["Standard"]},
+        {"model": "Huawei Mate 40", "sizes": ["XL", "Standard"]},
+        {"model": "Huawei Nova 8", "sizes": ["Standard", "Mini"]}
+      ]
+    },
+    {
+      "name": "Xiaomi",
+      "country": "China",
+      "products": [
+        {"model": "Mi 11", "sizes": ["XL", "Standard"]},
+        {"model": "Redmi Note 10", "sizes": ["Standard", "Mini"]},
+        {"model": "Poco X3", "sizes": ["XL", "Standard"]}
+      ]
+    },
+    {
+      "name": "OnePlus",
+      "country": "China",
+      "products": [
+        {"model": "OnePlus 9 Pro", "sizes": ["XL", "Standard"]},
+        {"model": "OnePlus Nord", "sizes": ["Standard", "Mini"]},
+        {"model": "OnePlus 8T", "sizes": ["XL", "Standard"]}
+      ]
+    }
+  ]
+}

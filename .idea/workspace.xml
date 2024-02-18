@@ -4,34 +4,181 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="e4303bfd-0437-44e1-8dbd-a28b4c8ae232" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/Apuntes.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ArraysExercises.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ArrowFunctionArraysExercises.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ArrowFunctionExercises.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Chronometer/index.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Chronometer/script.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/DOM1Exercise07/script.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/DOM1Exercise07/style.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/DOM2Exercise03/script.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/DOM2Exercise04/script.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/DOM2Exercise04/style.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/DOM2Exercise05/script.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/DOM2Exercise05/style.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/DateExercises.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/EventExercise01.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/JSON01/style.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/JSON02/index.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/JSON02/script.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/JSON02/style.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/NumbersExercises.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/SpreadExercises.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/StringExercises.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/prueba.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/.gitignore" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Prueba1.js" beforeDir="false" afterPath="$PROJECT_DIR$/Prueba1.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Prueba5.js" beforeDir="false" />
+    <list default="true" id="e4303bfd-0437-44e1-8dbd-a28b4c8ae232" name="Changes" comment="Version01">
+      <change afterPath="$PROJECT_DIR$/Angular01/src/app/app.module.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Angular03Shop/src/app/products.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Codember/Challengue01.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Exam - Adrian Burgos Galvez/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Exam - Adrian Burgos Galvez/members.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Exam - Adrian Burgos Galvez/script.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Exam - Adrian Burgos Galvez/style.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Exam - Adrian Burgos Galvez/tasks.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Exams/Exam1 - Adrian Burgos Galvez/Exam1Exercise1_Redo - Adrian Burgos Galvez/allCompanies.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Exams/Exam1 - Adrian Burgos Galvez/Exam1Exercise1_Redo - Adrian Burgos Galvez/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Exams/Exam1 - Adrian Burgos Galvez/Exam1Exercise1_Redo - Adrian Burgos Galvez/script.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Exams/Exam1 - Adrian Burgos Galvez/Exam1Exercise1_Redo - Adrian Burgos Galvez/style.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Exams/Exam2 - Adrian Burgos Galvez/Exam2Exercise1_Redo/allCountries.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Exams/Exam2 - Adrian Burgos Galvez/Exam2Exercise1_Redo/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Exams/Exam2 - Adrian Burgos Galvez/Exam2Exercise1_Redo/script.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Exams/Exam2 - Adrian Burgos Galvez/Exam2Exercise1_Redo/style.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Exams/Exam2 - Adrian Burgos Galvez/Exam2Exercise1_Redo02/allCountries.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Exams/Exam2 - Adrian Burgos Galvez/Exam2Exercise1_Redo02/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Exams/Exam2 - Adrian Burgos Galvez/Exam2Exercise1_Redo02/script.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Exams/Exam2 - Adrian Burgos Galvez/Exam2Exercise1_Redo02/style.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Exams/Exam2 - Adrian Burgos Galvez/Exam2Exercise2_Redo/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Exams/Exam2 - Adrian Burgos Galvez/Exam2Exercise2_Redo/pizza.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Exams/Exam2 - Adrian Burgos Galvez/Exam2Exercise2_Redo/pizzas/bbq.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Exams/Exam2 - Adrian Burgos Galvez/Exam2Exercise2_Redo/pizzas/doublecheese.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Exams/Exam2 - Adrian Burgos Galvez/Exam2Exercise2_Redo/pizzas/fourseassons.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Exams/Exam2 - Adrian Burgos Galvez/Exam2Exercise2_Redo/pizzas/melanzana.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Exams/Exam2 - Adrian Burgos Galvez/Exam2Exercise2_Redo/pizzas/og.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Exams/Exam2 - Adrian Burgos Galvez/Exam2Exercise2_Redo/pizzas/pepper.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Exams/Exam2 - Adrian Burgos Galvez/Exam2Exercise2_Redo/pizzas/pepperoni.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Exams/Exam2 - Adrian Burgos Galvez/Exam2Exercise2_Redo/pizzas/redgreen.jpeg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Exams/Exam2 - Adrian Burgos Galvez/Exam2Exercise2_Redo/pizzas/spicypepper.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Exams/Exam2 - Adrian Burgos Galvez/Exam2Exercise2_Redo/pizzas/veganveggie.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Exams/Exam2 - Adrian Burgos Galvez/Exam2Exercise2_Redo/script.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Exams/Exam2 - Adrian Burgos Galvez/Exam2Exercise2_Redo/style.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ExercisesCookies/Cookies01/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ExercisesCookies/Cookies01/script.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ExercisesCookies/Cookies02/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ExercisesCookies/Cookies02/lib/cookies.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ExercisesCookies/Cookies02/script.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ExercisesCookies/Cookies02/style.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ExercisesDOM/DOM3ExerciseFamilyNode/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ExercisesDOM/DOM3ExerciseFamilyNode/script.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ExercisesDOM/DOM3ExerciseFamilyNode/style.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ExercisesEvents/Events3Exercise1Key/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ExercisesEvents/Events3Exercise1Key/script.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ExercisesEvents/Events3Exercise2Key/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ExercisesEvents/Events3Exercise2Key/script.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ExercisesEvents/Events3Exercise3Key/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ExercisesEvents/Events3Exercise3Key/script.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ExercisesEvents/Events3Exercise4Key/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ExercisesEvents/Events3Exercise4Key/script.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ExercisesEvents/Events4Exercise1/img/carry.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ExercisesEvents/Events4Exercise1/img/shelving.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ExercisesEvents/Events4Exercise1/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ExercisesEvents/Events4Exercise1/items/apple.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ExercisesEvents/Events4Exercise1/items/banana.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ExercisesEvents/Events4Exercise1/items/bread.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ExercisesEvents/Events4Exercise1/items/cheese.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ExercisesEvents/Events4Exercise1/items/eggs.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ExercisesEvents/Events4Exercise1/items/grapes.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ExercisesEvents/Events4Exercise1/items/juice.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ExercisesEvents/Events4Exercise1/items/milk.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ExercisesEvents/Events4Exercise1/items/pasta.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ExercisesEvents/Events4Exercise1/products.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ExercisesEvents/Events4Exercise1/script.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ExercisesEvents/Events4Exercise1/style.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ExercisesFetch/Fetch1Exercise1/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ExercisesFetch/Fetch1Exercise1/script.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ExercisesFetch/Fetch1Exercise1/style.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ExercisesFetch/Fetch1Exercise2/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ExercisesFetch/Fetch1Exercise2/script.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ExercisesFetch/Fetch1Exercise2/style.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ExercisesFetch/Fetch2Animals/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ExercisesFetch/Fetch2Animals/script.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ExercisesFetch/Fetch2Animals/style.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ExercisesForm/Form1Exercise1/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ExercisesForm/Form1Exercise1/script.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ExercisesJSON/JSON04/arbol.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ExercisesJSON/JSON04/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ExercisesJSON/JSON04/script.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ExercisesJSON/JSON04/style.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ExercisesJSON/JSON05/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ExercisesJSON/JSON05/script.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ExercisesJSON/JSON05/style.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ExercisesPrototype/Prototype01/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ExercisesPrototype/Prototype01/prototype.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ExercisesPrototype/Prototype01/script.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TypeScript/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TypeScript/src/empleado.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TypeScript/src/index.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TypeScript/src/persona.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TypeScript/tsconfig.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TypeScript/webpack.config.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TypeScript02/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TypeScript02/src/index.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TypeScript02/tsconfig.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TypeScript02/webpack.config.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TypeScript03/.idea/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TypeScript03/.idea/TypeScript03.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TypeScript03/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TypeScript03/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TypeScript03/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TypeScript03/package-lock.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TypeScript03/package.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TypeScript03/src/index.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TypeScript03/style.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TypeScript03/tsconfig.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TypeScript03/webpack.config.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Apuntes.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ArraysExercises.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ArrowFunctionArraysExercises.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ArrowFunctionExercises.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Chronometer.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Chronometer/index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Chronometer/script.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/DOM1Exercise01/index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/DOM1Exercise02/index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/DOM1Exercise03/index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/DOM1Exercise04/index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/DOM1Exercise05/index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/DOM1Exercise06/index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/DOM1Exercise07.zip" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/DOM1Exercise07/index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/DOM1Exercise07/script.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/DOM1Exercise07/style.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/DOM2Exercise01/index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/DOM2Exercise01/script.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/DOM2Exercise02/img/css.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/DOM2Exercise02/img/gif.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/DOM2Exercise02/img/html.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/DOM2Exercise02/img/jpg.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/DOM2Exercise02/img/pdf.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/DOM2Exercise02/img/png.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/DOM2Exercise02/img/rar.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/DOM2Exercise02/img/txt.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/DOM2Exercise02/img/zip.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/DOM2Exercise02/index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/DOM2Exercise03/index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/DOM2Exercise03/script.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/DOM2Exercise04/index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/DOM2Exercise04/photos/mandarina.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/DOM2Exercise04/photos/manzana.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/DOM2Exercise04/photos/pera.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/DOM2Exercise04/photos/platano.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/DOM2Exercise04/script.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/DOM2Exercise04/style.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/DOM2Exercise05/index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/DOM2Exercise05/script.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/DOM2Exercise05/shapes/circle.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/DOM2Exercise05/shapes/polygon.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/DOM2Exercise05/shapes/square.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/DOM2Exercise05/shapes/triangle.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/DOM2Exercise05/style.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/DOM2Exercise06/index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/DateExercises.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/EventExercise01.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/JSON01/index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/JSON01/photos/default.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/JSON01/photos/jon.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/JSON01/script.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/JSON01/style.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/JSON02/index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/JSON02/script.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/JSON02/style.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/NumbersExercises.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Prueba1.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Prueba2.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Prueba3.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/SpreadExercises.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/StringExercises.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/prueba.js" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -41,10 +188,11 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="tsconfig.json" />
-        <option value="CSS File" />
         <option value="HTML File" />
         <option value="JavaScript File" />
+        <option value="CSS File" />
+        <option value="tsconfig.json" />
+        <option value="TypeScript File" />
       </list>
     </option>
   </component>
@@ -65,6 +213,9 @@
       </UrlAndAccount>
     </option>
   </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
+  </component>
   <component name="ProjectColorInfo">{
   &quot;associatedIndex&quot;: 2
 }</component>
@@ -76,47 +227,64 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;DefaultHtmlFileTemplate&quot;: &quot;HTML File&quot;,
-    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
-    &quot;git-widget-placeholder&quot;: &quot;master&quot;,
-    &quot;last_opened_file_path&quot;: &quot;C:/Users/Usuario/OneDrive/Documentos/WebStorm Projects&quot;,
-    &quot;list.type.of.created.stylesheet&quot;: &quot;CSS&quot;,
-    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
-    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
-    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
-    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
-    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.pluginManager&quot;,
-    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "DefaultHtmlFileTemplate": "HTML File",
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "WebServerToolWindowFactoryState": "false",
+    "git-widget-placeholder": "master",
+    "last_opened_file_path": "C:/Users/Usuario/OneDrive/Documentos/WebStorm Projects/Exam - Adrian Burgos Galvez",
+    "list.type.of.created.stylesheet": "CSS",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
+    "settings.editor.selected.configurable": "terminal",
+    "ts.external.directory.path": "C:\\Users\\Usuario\\OneDrive\\Documentos\\WebStorm Projects\\node_modules\\typescript\\lib",
+    "vue.rearranger.settings.migration": "true"
   }
-}</component>
-  <component name="RunManager" selected="JavaScript Debug.index.html (4)">
-    <configuration name="index.html (1)" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/WebStorm Projects/DOM2Exercise02/index.html" useBuiltInWebServerPort="true">
+}]]></component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\Usuario\OneDrive\Documentos\WebStorm Projects\ExercisesEvents\Events4Exercise1" />
+      <recent name="C:\Users\Usuario\OneDrive\Documentos\WebStorm Projects\Exams\Exam2 - Adrian Burgos Galvez\Exam2Exercise1_Redo02" />
+      <recent name="C:\Users\Usuario\OneDrive\Documentos\WebStorm Projects\Exams\Exam2 - Adrian Burgos Galvez\Exam2Exercise2_Redo" />
+      <recent name="C:\Users\Usuario\OneDrive\Documentos\WebStorm Projects\TypeScript03\node_modules" />
+      <recent name="C:\Users\Usuario\OneDrive\Documentos\WebStorm Projects\TypeScript03" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\Usuario\OneDrive\Documentos\WebStorm Projects\TypeScript" />
+      <recent name="C:\Users\Usuario\OneDrive\Documentos\WebStorm Projects\TypeScript\src" />
+      <recent name="C:\Users\Usuario\OneDrive\Documentos\WebStorm Projects\Exams\Exam1" />
+      <recent name="C:\Users\Usuario\OneDrive\Documentos\WebStorm Projects\ExercisesCookies\Cookies02" />
+      <recent name="C:\Users\Usuario\OneDrive\Documentos\WebStorm Projects\ExercisesCookies\Exercise2Cookies" />
+    </key>
+  </component>
+  <component name="RunManager" selected="JavaScript Debug.index.html (1)">
+    <configuration name="index.html (1)" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/WebStorm Projects/Exam - Adrian Burgos Galvez/index.html" useBuiltInWebServerPort="true">
       <method v="2" />
     </configuration>
-    <configuration name="index.html (2)" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/WebStorm Projects/DOM1Exercise07/index.html" useBuiltInWebServerPort="true">
+    <configuration name="index.html (2)" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/WebStorm Projects/Angular03Shop/src/index.html" useBuiltInWebServerPort="true">
       <method v="2" />
     </configuration>
-    <configuration name="index.html (3)" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/WebStorm Projects/JSON02/index.html" useBuiltInWebServerPort="true">
+    <configuration name="index.html (5)" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/WebStorm Projects/ExercisesEvents/Events4Exercise1/index.html" useBuiltInWebServerPort="true">
       <method v="2" />
     </configuration>
-    <configuration name="index.html (4)" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/WebStorm Projects/Chronometer/index.html" useBuiltInWebServerPort="true">
+    <configuration name="index.html" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/WebStorm Projects/Exams/Exam2 - Adrian Burgos Galvez/Exam2Exercise2_Redo/index.html" useBuiltInWebServerPort="true">
       <method v="2" />
     </configuration>
-    <configuration name="script.js" type="NodeJSConfigurationType" temporary="true" nameIsGenerated="true" path-to-js-file="$PROJECT_DIR$/Chronometer/script.js" working-dir="$PROJECT_DIR$/Chronometer">
+    <configuration name="script.js" type="NodeJSConfigurationType" temporary="true" nameIsGenerated="true" path-to-js-file="$PROJECT_DIR$/Exams/Exam2 - Adrian Burgos Galvez/Exam2Exercise2_Redo/script.js" working-dir="$PROJECT_DIR$/Exams/Exam2 - Adrian Burgos Galvez/Exam2Exercise2_Redo">
       <method v="2" />
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="JavaScript Debug.index.html (4)" />
-        <item itemvalue="Node.js.script.js" />
-        <item itemvalue="JavaScript Debug.index.html (3)" />
         <item itemvalue="JavaScript Debug.index.html (1)" />
         <item itemvalue="JavaScript Debug.index.html (2)" />
+        <item itemvalue="JavaScript Debug.index.html" />
+        <item itemvalue="Node.js.script.js" />
+        <item itemvalue="JavaScript Debug.index.html (5)" />
       </list>
     </recent_temporary>
   </component>
@@ -153,10 +321,104 @@
       <workItem from="1698996366938" duration="6186000" />
       <workItem from="1699015222178" duration="154000" />
       <workItem from="1699125499947" duration="3458000" />
+      <workItem from="1699129081308" duration="240000" />
+      <workItem from="1699130031424" duration="4484000" />
+      <workItem from="1699271517625" duration="132000" />
+      <workItem from="1699293615973" duration="4742000" />
+      <workItem from="1699346756121" duration="216000" />
+      <workItem from="1699373973950" duration="2631000" />
+      <workItem from="1699428192330" duration="6908000" />
+      <workItem from="1699440798606" duration="9846000" />
+      <workItem from="1699465803535" duration="375000" />
+      <workItem from="1699514693482" duration="647000" />
+      <workItem from="1699984523464" duration="4940000" />
+      <workItem from="1700033378123" duration="2592000" />
+      <workItem from="1700067805690" duration="9030000" />
+      <workItem from="1700119357319" duration="3403000" />
+      <workItem from="1700124052691" duration="27000" />
+      <workItem from="1700164328413" duration="1879000" />
+      <workItem from="1700205956165" duration="1878000" />
+      <workItem from="1700502653485" duration="11064000" />
+      <workItem from="1700559751393" duration="58000" />
+      <workItem from="1700580718603" duration="5285000" />
+      <workItem from="1700586051868" duration="5747000" />
+      <workItem from="1700637949907" duration="2842000" />
+      <workItem from="1700659240582" duration="6167000" />
+      <workItem from="1700681886535" duration="8793000" />
+      <workItem from="1700724482005" duration="2472000" />
+      <workItem from="1700744992999" duration="1371000" />
+      <workItem from="1700810755547" duration="638000" />
+      <workItem from="1701076958563" duration="105000" />
+      <workItem from="1701195432700" duration="10513000" />
+      <workItem from="1701243225807" duration="7159000" />
+      <workItem from="1701259506842" duration="1863000" />
+      <workItem from="1701329479482" duration="828000" />
+      <workItem from="1701951844495" duration="3111000" />
+      <workItem from="1702043782656" duration="4450000" />
+      <workItem from="1702311895549" duration="4643000" />
+      <workItem from="1702386688842" duration="1699000" />
+      <workItem from="1702401378670" duration="4946000" />
+      <workItem from="1702410255236" duration="677000" />
+      <workItem from="1702452020255" duration="11799000" />
+      <workItem from="1702625468394" duration="615000" />
+      <workItem from="1702626593291" duration="6764000" />
+      <workItem from="1702917634783" duration="3796000" />
+      <workItem from="1702922537682" duration="7000" />
+      <workItem from="1703007065826" duration="3056000" />
+      <workItem from="1703062183959" duration="2233000" />
+      <workItem from="1704874122604" duration="11409000" />
+      <workItem from="1704909579105" duration="8147000" />
+      <workItem from="1704957874473" duration="1776000" />
+      <workItem from="1704995981104" duration="8191000" />
+      <workItem from="1705044281747" duration="5221000" />
+      <workItem from="1705145287124" duration="3959000" />
+      <workItem from="1705151182239" duration="97000" />
+      <workItem from="1705335552798" duration="9176000" />
+      <workItem from="1705425058230" duration="4800000" />
+      <workItem from="1705476325862" duration="2649000" />
+      <workItem from="1705479016677" duration="1618000" />
+      <workItem from="1705514573420" duration="9322000" />
+      <workItem from="1705563246045" duration="613000" />
+      <workItem from="1705583638200" duration="1693000" />
+      <workItem from="1705649292476" duration="1719000" />
+      <workItem from="1705943115188" duration="1061000" />
+      <workItem from="1705944250719" duration="256000" />
+      <workItem from="1706081125409" duration="16000" />
+      <workItem from="1706081213337" duration="20000" />
+      <workItem from="1706081866468" duration="54000" />
+      <workItem from="1706206169607" duration="85000" />
+      <workItem from="1706254091087" duration="1533000" />
+      <workItem from="1706353483418" duration="17015000" />
+      <workItem from="1706455044461" duration="22000" />
+      <workItem from="1706551321165" duration="6300000" />
+      <workItem from="1706631336212" duration="5184000" />
+      <workItem from="1706685754179" duration="13289000" />
+      <workItem from="1706772504837" duration="922000" />
+      <workItem from="1706799564137" duration="8505000" />
+      <workItem from="1706858606498" duration="7090000" />
+      <workItem from="1706962155441" duration="918000" />
+      <workItem from="1707124235673" duration="281000" />
     </task>
+    <task id="LOCAL-00001" summary="Version01">
+      <option name="closed" value="true" />
+      <created>1699129162549</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1699129162549</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
+  </component>
+  <component name="UnknownFeatures">
+    <option featureType="dependencySupport" implementationName="executable:docker" />
+    <option featureType="dependencySupport" implementationName="executable:kubectl" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="Version01" />
+    <option name="LAST_COMMIT_MESSAGE" value="Version01" />
   </component>
 </project>
