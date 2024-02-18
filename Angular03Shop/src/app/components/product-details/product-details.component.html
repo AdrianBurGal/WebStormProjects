@@ -1,0 +1,11 @@
+<h2>Product Details</h2>
+
+<div *ngIf="product">
+  <h2>Phone {{ product.name }}</h2>
+  <p>{{ product.description }}</p>
+  <p>Price: {{ product.price | currency }}</p>
+<!--  <a routerLink='/providers/{{product.name}}'>-->
+<!--    Show provider-->
+<!--  </a>-->
+  <button (click)="addToCart(product)">Add to Cart</button>
+</div>

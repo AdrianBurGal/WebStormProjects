@@ -1,0 +1,21 @@
+body {
+    margin: 0;
+    max-width: 1000px;
+}
+
+table {
+    border-collapse: collapse;
+}
+
+th, td {
+    border: 1px solid;
+    min-width: 100px;
+    height: 100px;
+    text-align: center;
+}
+
+.info {
+    width: 100px;
+    height: 100px;
+    background-color: red;
+}

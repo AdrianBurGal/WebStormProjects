@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <link href="style.css" rel="stylesheet">
+</head>
+<body>
+<div class="container">
+    <div class="contShelf">
+        <img src="img/shelving.png" id="shelving" draggable="true" ondragstart="drag(event)">
+    </div>
+    <div class="contCarry">
+        <img src="img/carry.png" id="carry" ondragover="allowDrop(event)" ondrop="drop(event)">
+    </div>
+    <div class="tableData">
+        <table>
+            <tr>
+                <th>ITEM</th>
+                <th>AMOUNT</th>
+            <tr>
+        </table>
+    </div>
+</div>
+<script src="script.js"></script>
+
+</body>
+</html>

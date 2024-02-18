@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<table>
+    <tr>
+        <td></td>
+        <td></td>
+        <td></td>
+    </tr>
+    <tr>
+        <td></td>
+        <td></td>
+        <td></td>
+    </tr>
+    <tr>
+        <td></td>
+        <td></td>
+        <td></td>
+    </tr>
+</table>
+<script>
+
+    let colors = [
+        "rgb(255, 0, 0)",
+        "rgb(0, 255, 0)",
+        "rgb(0, 0, 255)",
+        "rgb(255, 255, 0)",
+        //"rgb(128, 0, 128)"
+        ];
+
+    let column = document.querySelectorAll("td");
+
+    for (let i = 0; i < column.length; i++) {
+        column[i].style.backgroundColor = colors[i % colors.length];
+    }
+
+</script>
+
+<style>
+    table {
+        border-color: black;
+        border-width: 1px;
+        border-style: solid;
+        width: 500px;
+        height: 500px;
+    }
+
+    td {
+        border-color: black;
+        border-width: 1px;
+        border-style: solid;
+    }
+</style>
+</body>
+</html>

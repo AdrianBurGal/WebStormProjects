@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Form</title>
+</head>
+<body>
+<form id="myForm">
+    <ul>
+        <li>Name: <input id="name" required type="text"></li>
+        <li>Email: <input id="email" required type="email"></li>
+        <li>Password <input id="password" required type="password"></li>
+        <br>
+        <li>Please check all the emotions that apply to you</li>
+        <ul>
+            <li>Angry <input id="angry" type="checkbox" value="Angry"></li>
+            <li>Sad <input id="sad" type="checkbox" value="Sad"></li>
+            <li>Happy <input id="happy" type="checkbox" value="Happy"></li>
+            <li>Ambivalent <input id="ambivalent" type="checkbox" value="Ambivalent"></li>
+        </ul>
+        <li>How satisfied were you with our service?</li>
+        <ul>
+            <li>Very satisfied <input name="satisfaction" id="verySatisfied" type="radio" value="Very satisfied"></li>
+            <li>Satisfied <input name="satisfaction" id="satisfied" type="radio" value="Satisfied"></li>
+            <li>Didn't care <input name="satisfaction" id="didntCare" type="radio" value="Didn't care"></li>
+            <li>Dissatisfied <input name="satisfaction" id="dissatisfied" type="radio" value="Dissatisfied"></li>
+            <li>Very dissatisfied <input name="satisfaction" id="veryDissatisfied" type="radio" value="Very dissatisfied"></li>
+        </ul>
+        <li>Further comments: <textarea id="comments"></textarea></li>
+        <li>Bio photo: <input id="photo" required type="file"></li>
+        <li><button type="button" id="submitButton">Submit</button></li>
+        <li><button type="button" id="clearButton">Clear Form</button></li>
+    </ul>
+</form>
+
+<div id="photoPreviewContainer">
+    <label>Photo Preview:</label>
+    <div id="photoPreview"></div>
+</div>
+
+<table>
+    <thead>
+    <tr>
+        <th>Name</th>
+        <th>Email</th>
+        <th>Password</th>
+        <th>emotion</th>
+        <th>Satisfaction</th>
+        <th>Comments</th>
+        <th>Bio Photo</th>
+    </tr>
+    </thead>
+    <tbody id="tableBody"></tbody>
+</table>
+
+<script src="script.js"></script>
+</body>
+</html>

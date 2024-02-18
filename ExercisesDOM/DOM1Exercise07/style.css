@@ -1,0 +1,33 @@
+tr {
+    display: flex;
+    border: solid 1px black;
+}
+
+td {
+    border: solid 1px black;
+    height: 70px;
+    width: 70px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+section {
+    display: flex;
+}
+
+button {
+    background-color: transparent;
+    border: 0;
+    font-size: 1.7em;
+}
+
+.addColumns {
+    display: flex;
+    flex-direction: column;
+}
+
+.addRows {
+    display: flex;
+    justify-content: center;
+}
