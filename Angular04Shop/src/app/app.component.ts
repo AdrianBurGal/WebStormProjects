@@ -1,4 +1,4 @@
-import {Component} from '@angular/core';
+import {Component, inject} from '@angular/core';
 import {RouterOutlet} from "@angular/router";
 import {HeaderComponent} from "./components/header/header.component";
 import {CardMobileComponent} from "./components/card-mobile/card-mobile.component";
@@ -6,6 +6,8 @@ import {DetailsMobileComponent} from "./components/details-mobile/details-mobile
 import {DetailsProviderComponent} from "./components/details-provider/details-provider.component";
 import {ListMobileComponent} from "./components/list-mobile/list-mobile.component";
 import {CartComponent} from "./components/cart/cart.component";
+import {Phone} from "./model/Phone";
+import {CartService} from "./service/cart.service";
 
 
 @Component({
@@ -17,7 +19,7 @@ import {CartComponent} from "./components/cart/cart.component";
     CartComponent],
   template: `
     <main>
-      <app-header/>
+      <app-header [cart]="cart"/>
       <section class="content">
         <router-outlet/>
       </section>
@@ -26,5 +28,6 @@ import {CartComponent} from "./components/cart/cart.component";
   styles: ''
 })
 export class AppComponent {
-
+  cartService = inject(CartService);
+  cart: Map<number, Phone[]> = this.cartService.getItems();
 }

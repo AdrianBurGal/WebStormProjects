@@ -1,7 +1,8 @@
-import {Component} from '@angular/core';
+import {Component, inject, Input} from '@angular/core';
 import {CartService} from "../../service/cart.service";
 import {NgForOf} from "@angular/common";
 import {FormBuilder, ReactiveFormsModule} from "@angular/forms";
+import {Phone} from "../../model/Phone";
 
 @Component({
   selector: 'app-cart',
@@ -10,9 +11,13 @@ import {FormBuilder, ReactiveFormsModule} from "@angular/forms";
   template: `
     <section id="containerCart">
       <h3>Cart</h3>
-      <div class="cart-item" *ngFor="let item of items">
-        <span>{{ item.name }}</span>
-        <span>{{ item.price }}€</span>
+      <div *ngFor="let item of cart.entries()">
+        <div id="item" class="cart-item">
+          <span>{{ item[1][0].name }}</span>
+          <button class="button" type="submit" (click)="removeQuantity(item[0])">-</button>
+          <span>{{ item[1].length }}</span>
+          <button class="button" type="submit" (click)="addQuantity(item[0])">+</button>
+        </div>
       </div>
 
       <form [formGroup]="checkoutForm" (ngSubmit)="onSubmit()">
@@ -32,22 +37,27 @@ import {FormBuilder, ReactiveFormsModule} from "@angular/forms";
   styleUrl: './cart.component.css'
 })
 export class CartComponent {
-
-  items = this.cartService.getItems();
+  cartService = inject(CartService);
+  cart = this.cartService.getItems();
 
   checkoutForm =
     this.formBuilder.group({
       name: '', address: ''
     });
 
-  constructor(private cartService: CartService,
-              private formBuilder: FormBuilder) {
+  constructor(private formBuilder: FormBuilder) {
   }
 
   onSubmit(): void {
-    this.items = this.cartService.clearCart();
-    //console.warn('Your order has been submitted', this.checkoutForm.value);
+    this.cartService.clearCart();
     this.checkoutForm.reset();
   }
 
+  addQuantity(phoneId: number) {
+    this.cartService.addQuantity(phoneId);
+  }
+
+  removeQuantity(phoneId: number) {
+    this.cartService.removeQuantity(phoneId);
+  }
 }
